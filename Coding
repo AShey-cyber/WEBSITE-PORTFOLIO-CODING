@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Get To Know Me!</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom right, #1a1a2e, #16213e);
+      color: white;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 50px auto;
+      padding: 20px;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.08);
+      padding: 30px;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+      backdrop-filter: blur(6px);
+    }
+
+    h1 {
+      text-align: center;
+      color: #7ec8e3;
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      color: #ffd369;
+      margin-top: 0;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.8;
+    }
+
+    .highlight {
+      color: #7ec8e3;
+      font-weight: bold;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 25px;
+      color: #cccccc;
+      font-size: 14px;
+    }
+
+    .emoji {
+      font-size: 24px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="card">
+
+      <h1>✨ Get To Know Me! ✨</h1>
+
+      <h2>Hello Everyone 👋</h2>
+
+      <p>
+        My name is <span class="highlight">Angela Shannon Kamil</span>.
+      </p>
+
+      <p>
+        I am <span class="highlight">16 years old</span>.
+      </p>
+
+      <p>
+        My birth date is <span class="highlight">31 March 2010</span>.
+      </p>
+
+      <p>
+        I study at <span class="highlight">Wardaya Highschool</span>.
+      </p>
+
+      <p>
+        My hobby is <span class="highlight">Dancing 💃</span>.
+      </p>
+
+      <div class="footer">
+        Made with ❤️ using HTML & CSS
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>
